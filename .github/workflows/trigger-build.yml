@@ -1,0 +1,16 @@
+name: Trigger build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        run: echo "new version published"
+
+      #- name: Trigger build for library-consumer (to check the new version)
+
