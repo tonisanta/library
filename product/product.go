@@ -3,6 +3,7 @@ package product
 type Product struct {
 	name        string
 	description string
+	category    string
 	units       int
 }
 
