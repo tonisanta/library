@@ -8,6 +8,7 @@ type Product struct {
 	category    string
 	units       int
 	createdAt   time.Time
+	updatedAt   time.Time
 }
 
 func (p *Product) AddUnits() {
