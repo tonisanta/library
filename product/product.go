@@ -11,8 +11,8 @@ type Product struct {
 	updatedAt   time.Time
 }
 
-func (p *Product) AddUnits() {
-	p.units++
+func (p *Product) AddUnits(units int) {
+	p.units += units
 }
 
 func (p *Product) Units() int {
