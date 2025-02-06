@@ -14,3 +14,6 @@ create a "[workflow dispatch event](https://docs.github.com/en/rest/actions/work
 aka, trigger a GH action on another repository. By doing this, we can run another
 workflow that will upgrade the Go module and build it with the new version. If the build
 fails, we can assume that the changes are breaking.
+
+
+![schema](schema.svg)
